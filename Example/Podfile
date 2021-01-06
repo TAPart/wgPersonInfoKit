@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'wgPersonInfoKit_Example' do
+  pod 'wgPersonInfoKit', :path => '../'
+
+  target 'wgPersonInfoKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
