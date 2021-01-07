@@ -1,0 +1,28 @@
+PODS:
+  - CTMediator (44)
+  - wgPersonInfoKit (1):
+    - wgPersonPrefrenceCatogeryKit
+  - wgPersonPrefrenceCatogeryKit (3):
+    - CTMediator (~> 44)
+
+DEPENDENCIES:
+  - wgPersonInfoKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CTMediator
+  https://github.com/TAPart/TASpace.git:
+    - wgPersonPrefrenceCatogeryKit
+
+EXTERNAL SOURCES:
+  wgPersonInfoKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CTMediator: 933dba523da87bf875e4a7e8728945fbc512f1d2
+  wgPersonInfoKit: e208a6d624e23a5f23532e68ef4c8360d0f67d4e
+  wgPersonPrefrenceCatogeryKit: 6b557c1aeda26d2efa36f834c13a05a0087897e4
+
+PODFILE CHECKSUM: 3c8fe1ed4d9b000a3ae04e3724a3cb1c92957347
+
+COCOAPODS: 1.10.0
