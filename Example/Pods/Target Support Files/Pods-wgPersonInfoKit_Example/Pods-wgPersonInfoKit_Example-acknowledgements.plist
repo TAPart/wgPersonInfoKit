@@ -48,7 +48,7 @@ THE SOFTWARE.
 			<key>License</key>
 			<string>MIT</string>
 			<key>Title</key>
-			<string>wgPersonInfoKit</string>
+			<string>testCTMKit</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>
@@ -77,7 +77,7 @@ THE SOFTWARE.
 			<key>License</key>
 			<string>MIT</string>
 			<key>Title</key>
-			<string>wgPersonPrefrenceCatogeryKit</string>
+			<string>wgPersonInfoKit</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>

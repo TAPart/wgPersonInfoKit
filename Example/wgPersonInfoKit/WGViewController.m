@@ -8,7 +8,6 @@
 
 #import "WGViewController.h"
 #import <wgPersonInfoKit/WGPersonInfoViewController.h>
-#import <wgPersonPrefrenceCatogeryKit/Header.h>
 
 @interface WGViewController ()
 
@@ -32,13 +31,6 @@
     vc.age = 11;
     [self presentViewController:vc animated:YES completion:nil];
 
-    
-//    UIViewController *vc = [[CTMediator sharedInstance] personPreferenceWithRemind:@"希望您能喜欢我" resultBlock:^(BOOL isLike) {
-//
-//    }];
-//
-//    [self.navigationController pushViewController:vc animated:YES];
-    
     
 }
 

@@ -176,13 +176,13 @@ code_sign_if_enabled() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/testCTMKit/testCTMKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/wgPersonInfoKit/wgPersonInfoKit.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/wgPersonPrefrenceCatogeryKit/wgPersonPrefrenceCatogeryKit.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/testCTMKit/testCTMKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/wgPersonInfoKit/wgPersonInfoKit.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/wgPersonPrefrenceCatogeryKit/wgPersonPrefrenceCatogeryKit.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

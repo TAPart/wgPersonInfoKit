@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'wgPersonInfoKit'
-  s.version          = '1'
+  s.version          = '2'
   s.summary          = 'A short description of wgPersonInfoKit.'
 
 # This description is used to generate tags and improve search results.
@@ -39,5 +39,7 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-    s.dependency 'wgPersonPrefrenceCatogeryKit'
+    s.dependency 'testCTMKit'
+    
+    
 end

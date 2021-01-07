@@ -6,7 +6,7 @@ This application makes use of the following third party libraries:
 MIT
 
 
-## wgPersonInfoKit
+## testCTMKit
 
 Copyright (c) 2021 Ra2212 <xhf@tsinghua.com>
 
@@ -29,7 +29,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
-## wgPersonPrefrenceCatogeryKit
+## wgPersonInfoKit
 
 Copyright (c) 2021 Ra2212 <xhf@tsinghua.com>
 

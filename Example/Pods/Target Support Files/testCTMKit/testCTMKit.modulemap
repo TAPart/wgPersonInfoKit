@@ -1,0 +1,6 @@
+framework module testCTMKit {
+  umbrella header "testCTMKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

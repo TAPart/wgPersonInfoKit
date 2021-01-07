@@ -1,6 +1,0 @@
-framework module wgPersonPrefrenceCatogeryKit {
-  umbrella header "wgPersonPrefrenceCatogeryKit-umbrella.h"
-
-  export *
-  module * { export * }
-}

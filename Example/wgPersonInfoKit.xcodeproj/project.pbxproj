@@ -328,14 +328,14 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-wgPersonInfoKit_Example/Pods-wgPersonInfoKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
+				"${BUILT_PRODUCTS_DIR}/testCTMKit/testCTMKit.framework",
 				"${BUILT_PRODUCTS_DIR}/wgPersonInfoKit/wgPersonInfoKit.framework",
-				"${BUILT_PRODUCTS_DIR}/wgPersonPrefrenceCatogeryKit/wgPersonPrefrenceCatogeryKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/testCTMKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/wgPersonInfoKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/wgPersonPrefrenceCatogeryKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -546,8 +546,6 @@
 					"\"Foundation\"",
 					"-framework",
 					"\"wgPersonInfoKit\"",
-					"-framework",
-					"\"wgPersonPrefrenceCatogeryKit\"",
 					"-objc",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
@@ -579,8 +577,6 @@
 					"\"Foundation\"",
 					"-framework",
 					"\"wgPersonInfoKit\"",
-					"-framework",
-					"\"wgPersonPrefrenceCatogeryKit\"",
 					"-objc",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";

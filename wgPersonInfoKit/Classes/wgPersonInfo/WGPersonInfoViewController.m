@@ -9,7 +9,7 @@
 #define WGWidth [UIScreen mainScreen].bounds.size.width
 
 #import "WGPersonInfoViewController.h"
-#import <wgPersonPrefrenceCatogeryKit/Header.h>
+#import <testCTMKit/CTMTestClass.h>
 
 @interface WGPersonInfoViewController ()
 
@@ -35,7 +35,8 @@
 }
 
 - (void)btnClick{
-    UIViewController *vc = [[CTMediator sharedInstance] personPreferenceWithRemind:@"希望您能喜欢我" resultBlock:^(BOOL isLike) {
+    
+    UIViewController *vc = [CTMTestClass personPreferenceWithRemind:@"希望您能喜欢我" resultBlock:^(BOOL isLike) {
         if (isLike) {
             [_likeBtn setTitle:@"对方喜欢你" forState:UIControlStateNormal];
             _likeBtn.backgroundColor = [UIColor cyanColor];
@@ -46,7 +47,7 @@
     }];
 
     [self.navigationController pushViewController:vc animated:YES];
-    
+
 }
 
 
